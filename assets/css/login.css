@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1521790945508-bf2a36314e85?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(4px);
+  }
+  
+  .login-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+    width: 350px;
+    transition: 0.3s;
+  }
+  
+  .login-box h2 {
+    color: #1100fb;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: bolder;
+  }
+  
+  .input-group {
+    margin-bottom: 1rem;
+  }
+  
+  .input-group label {
+    color: #000000;
+    font-size: 0.9rem;
+    /* font-style: bold; */
+    font-weight: bolder;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 0.6rem;
+    margin-top: 0.4rem;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 1rem;
+    background: rgb(146, 255, 255);
+    color: #0f0e0e;
+  }
+  
+  button {
+    width: 100%;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    background: linear-gradient(135deg, #00b09b, #96c93d);
+    color: white;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background: linear-gradient(135deg, #11998e, #38ef7d);
+  }
+  
+  .error {
+    margin-top: 0.5rem;
+    color: #ff4e4e;
+    font-size: 1.0rem;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+  }
+
+  .show-pass {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 0.5rem;
+    color: #ccc;
+    font-size: 10px;
+
+  }
+  .show-pass label{
+    color: #000000;
+    width: 70%;
+    margin-right: 25px;
+
+  }
+  
+.signup-links{
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .signup-links a {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    margin: 0.4rem 0;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+    font-weight: bolder;
+  }
+  
+  .signup-links a:hover {
+    color: #086bdc;
+    text-decoration: underline;
+  }
+  
+  

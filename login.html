@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aashirbad Traders | Login</title>
+  <link rel="stylesheet" href="assets/css/login.css"/>
+
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-box">
+      <h2>Aashirbad Traders</h2>
+      <form id="loginForm">
+        <div class="input-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" required/>
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" required/>
+          <div class="show-pass">
+            <input type="checkbox" id="showPassword" />
+            <label for="showPassword">Show Password</label>
+          </div>
+        </div>
+        <button type="submit">Login</button>
+        <p class="error" id="errorMsg"></p>
+      </form>
+
+      <div class="signup-links">
+        <a href="#">Forgot Password?</a>
+        <a href="signup.html">Don't have an account? Sign Up</a>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="assets\javascript\login.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aashirbad Traders | Sign Up</title>
+  <link rel="stylesheet" href="assets/css/signup.css"/>
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-box">
+      <h2>Create Account</h2>
+      <form id="signupForm">
+        <div class="input-group">
+          <label for="fullname">Full Name</label>
+          <input type="text" id="fullname" required/>
+        </div>
+        <div class="input-group">
+          <label for="newUsername">Username</label>
+          <input type="text" id="newUsername" required/>
+        </div>
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" required/>
+        </div>
+        <div class="input-group">
+          <label for="newPassword">Password</label>
+          <input type="password" id="newPassword" required/>
+        </div>
+        <div class="input-group">
+          <label for="confirmPassword">Confirm Password</label>
+          <input type="password" id="confirmPassword" required/>
+          <div class="show-pass">
+            <input type="checkbox" id="showSignupPassword" />
+            <label for="showSignupPassword">Show Password</label>
+          </div>
+        </div>
+        <button type="submit">Sign Up</button>
+        <p class="error" id="signupError"></p>
+      </form>
+
+      <div class="extra-links">
+        <a href="login.html">Already have an account? Login</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/javascript/signup.js"></script>
+</body>
+</html>
